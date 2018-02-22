@@ -5,7 +5,7 @@ function capture() {
 event.preventDefault()
 	var theEmail= document.custInfo.userEmail.value
 	console.log("Thank you so much for signing up for our mailing list, " + theEmail )
-	confirm(" Thank you for signing up for our mailing list!")
+	confirm(" Thank you for signing up for our mailing list!  \n This also writes to the console")
 }
 
 
